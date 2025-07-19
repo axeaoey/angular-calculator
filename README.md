@@ -1,27 +1,37 @@
-# CalculatorAngular
+# Angular Calculator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.20.
+A simple calculator web app built with Angular.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Basic arithmetic operations
+- State saved in localStorage
+- Responsive UI
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Development server
 
-## Build
+```sh
+ng serve
+```
+Navigate to `http://localhost:4200/`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Build
 
-## Running unit tests
+```sh
+ng build
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Usage
 
-## Running end-to-end tests
+- หน้าแรกจะแสดงชื่อโปรเจกต์และปุ่มไปยังเครื่องคิดเลข
+- หน้า `/calculator` คือเครื่องคิดเลข
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## License
 
-## Further help
+MIT
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+Project repository: [https://github.com/axeaoey/angular-calculator](https://github.com/axeaoey/angular-calculator)
