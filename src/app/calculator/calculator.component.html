@@ -3,34 +3,34 @@
   <div class="display">{{ display }}</div>
 
   <div class="row">
-    <button (click)="clear()">C</button>
-    <button (click)="press('÷')">÷</button>
+    <button (click)="clear()" class="clear">C</button>
+    <button (click)="press('÷')" class="calculate">÷</button>
   </div>
 
   <div class="row">
     <button (click)="press('7')">7</button>
     <button (click)="press('8')">8</button>
     <button (click)="press('9')">9</button>
-    <button (click)="press('×')">×</button>
+    <button (click)="press('×')" class="calculate">×</button>
   </div>
 
   <div class="row">
     <button (click)="press('4')">4</button>
     <button (click)="press('5')">5</button>
     <button (click)="press('6')">6</button>
-    <button (click)="press('-')">−</button>
+    <button (click)="press('-')" class="calculate">−</button>
   </div>
 
   <div class="row">
     <button (click)="press('1')">1</button>
     <button (click)="press('2')">2</button>
     <button (click)="press('3')">3</button>
-    <button (click)="press('+')">+</button>
+    <button (click)="press('+')" class="calculate">+</button>
   </div>
 
   <div class="row">
     <button (click)="press('0')" class="zero">0</button>
     <button (click)="press('.')">.</button>
-    <button (click)="calculate()">=</button>
+    <button (click)="calculate()" class="calculate">=</button>
   </div>
 </div>
